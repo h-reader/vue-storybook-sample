@@ -1,7 +1,15 @@
 import { storiesOf } from '@storybook/vue'
+import VueInfoAddon from 'storybook-addon-vue-info'
 import AppButton from '../parts/app-button.vue'
 
-storiesOf('app-button', module)
+storiesOf('Usage button', module)
+  .addDecorator(VueInfoAddon)
+  .add('default', () => ({
+    components: { AppButton },
+    template: `<app-button text="default" />`
+  }))
+
+storiesOf('Button', module)
   .add('default', () => ({
     components: { AppButton },
     template: `<app-button text="default" />`

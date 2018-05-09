@@ -725,6 +725,15 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@storybook/addon-viewport@^3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-3.4.3.tgz#00c8f565fdfc12ec2e26a556b3fa461b3b8008fb"
+  dependencies:
+    "@storybook/components" "3.4.3"
+    babel-runtime "^6.26.0"
+    global "^4.3.2"
+    prop-types "^15.6.1"
+
 "@storybook/addons@3.4.3":
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.4.3.tgz#537311d621cb3d582d581a160813608d6b27e4bd"
@@ -8731,6 +8740,10 @@ stdout-stream@^1.4.0:
 stealthy-require@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
+
+storybook-addon-vue-info@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/storybook-addon-vue-info/-/storybook-addon-vue-info-0.3.1.tgz#c339405fecf02b2e389105ef8571d1f02f557526"
 
 stream-browserify@^2.0.1:
   version "2.0.1"
