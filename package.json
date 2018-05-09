@@ -10,6 +10,8 @@
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "dependencies": {
+    "@storybook/addon-knobs": "^3.4.3",
+    "@storybook/addon-notes": "^3.4.3",
     "@storybook/addon-viewport": "^3.4.3",
     "storybook-addon-vue-info": "^0.3.1",
     "vue": "^2.5.16",

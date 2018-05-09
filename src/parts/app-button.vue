@@ -1,7 +1,7 @@
 <template>
-  <button @click="onclick" :disabled="disabled||false"
+  <button @click="onclick" :disabled="btnDisabled||false"
     :class="['button',
-      'button-' + (disabled ? 'disabled' : kind),
+      'button-' + (btnDisabled ? 'disabled' : kind),
       size  ? 'button-'+size : 'button-normal'
     ]">
     <span>{{ text }}</span>
@@ -20,7 +20,7 @@ export default {
     size: {
       type: String
     },
-    disabled: {
+    btnDisabled: {
       type: Boolean,
       default: false
     }
